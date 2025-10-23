@@ -1,0 +1,434 @@
+{
+  "templateName": "Template 1",
+  "formData": {
+    "businessName": {
+      "answer": "Elite Property Leads"
+    },
+    "websiteGoals": {
+      "answer": "Generate high-quality leads for real estate agents and investors through targeted digital marketing and property matching services."
+    },
+    "uniqueSellingPoints": {
+      "answer": "We deliver pre-qualified leads for buyers, sellers, and investors using AI-powered matching, local market analysis, and multi-channel campaigns.\n\nSkip cold calling – get warm leads ready to transact. Our system combines SEO, social ads, and email nurturing to fill your pipeline with serious prospects.\n\nFrom luxury homes to commercial properties, we specialize in your niche. Step 1: Complete our market assessment, then we customize a lead gen strategy and launch campaigns within days.\n\nBoost your closings with leads that convert – proven 20% higher than industry average."
+    },
+    "mainColor": {
+      "answer": "#1E90FF"
+    },
+    "baseBgColor": {
+      "answer": "#f5f5f5"
+    },
+    "textColor": {
+      "answer": "#333333"
+    },
+    "bgLayoutType": {
+      "answer": "solid"
+    }
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "id": "landingNavbar-0",
+          "type": "landingNavbar",
+          "order": 0,
+          "context": "This is the navbar",
+          "props": {
+            "tabs": [],
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "mainColor": "#1E90FF",
+            "bgLayout": {
+              "type": "solid"
+            },
+            "logoText": "Elite Property Leads",
+            "logoAlt": "Elite Property Leads Logo",
+            "sticky": "true",
+            "alignment": "right",
+            "buttonText": "Get Started",
+            "ctaDestination": "/get-started",
+            "array": []
+          },
+          "componentCategory": "navbar"
+        },
+        {
+          "id": "auroraImageHero-1",
+          "type": "auroraImageHero",
+          "order": 1,
+          "context": "This is the hero banner at the top of the page to introduce branding",
+          "props": {
+            "subTitle": "Your Real Estate Solution",
+            "title": "Unlock High-Quality Property Leads",
+            "description": "Generate pre-qualified leads for buyers, sellers, and investors with our AI-powered matching and targeted marketing strategies.",
+            "buttonText": "Learn More",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "id": "imageTextBox-2",
+          "type": "imageTextBox",
+          "order": 2,
+          "context": "This section highlights a product or service with image + text",
+          "props": {
+            "title": "AI-Powered Lead Matching",
+            "description": "Our advanced technology connects you with serious buyers and sellers, ensuring you never waste time on cold leads again.",
+            "buttonText": "See How",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "id": "textAndList-3",
+          "type": "textAndList",
+          "order": 3,
+          "context": "This section provides a bulleted list of features/benefits",
+          "props": {
+            "subTitle": "Why Choose Us",
+            "title": "Benefits of Our Services",
+            "description": "Discover how we help real estate professionals succeed.",
+            "textArray": [
+              {
+                "title": "Pre-Qualified Leads",
+                "description": "Receive leads that are ready to transact, saving you time and effort."
+              },
+              {
+                "title": "Local Market Expertise",
+                "description": "Leverage our in-depth market analysis for targeted campaigns."
+              },
+              {
+                "title": "Multi-Channel Marketing",
+                "description": "Engage prospects through SEO, social ads, and email nurturing."
+              },
+              {
+                "title": "Faster Closings",
+                "description": "Boost your closing rate with leads proven to convert 20% better."
+              }
+            ],
+            "array": [
+              {
+                "title": "Pre-Qualified Leads",
+                "description": "Receive leads that are ready to transact, saving you time and effort."
+              },
+              {
+                "title": "Local Market Expertise",
+                "description": "Leverage our in-depth market analysis for targeted campaigns."
+              },
+              {
+                "title": "Multi-Channel Marketing",
+                "description": "Engage prospects through SEO, social ads, and email nurturing."
+              },
+              {
+                "title": "Faster Closings",
+                "description": "Boost your closing rate with leads proven to convert 20% better."
+              }
+            ],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "id": "imageTextPoints-4",
+          "type": "imageTextPoints",
+          "order": 4,
+          "context": "This section shows visual steps or key points with images",
+          "props": {
+            "title": "Simple Steps to Success",
+            "description": "Follow our streamlined process to start generating high-quality leads today.",
+            "buttonText": "Get Started Now",
+            "alt": "Visual Steps to Success",
+            "textArray": [
+              {
+                "title": "Step 1: Market Assessment",
+                "description": "Complete our assessment to understand your unique needs and market."
+              },
+              {
+                "title": "Step 2: Customized Strategy",
+                "description": "We tailor a lead generation strategy specifically for your niche."
+              },
+              {
+                "title": "Step 3: Launch Campaigns",
+                "description": "Watch us launch effective campaigns within days to fill your pipeline."
+              }
+            ],
+            "array": [
+              {
+                "title": "Step 1: Market Assessment",
+                "description": "Complete our assessment to understand your unique needs and market."
+              },
+              {
+                "title": "Step 2: Customized Strategy",
+                "description": "We tailor a lead generation strategy specifically for your niche."
+              },
+              {
+                "title": "Step 3: Launch Campaigns",
+                "description": "Watch us launch effective campaigns within days to fill your pipeline."
+              }
+            ],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "id": "testimonials3-5",
+          "type": "testimonials3",
+          "order": 5,
+          "context": "This is where users can showcase previous testimonials",
+          "props": {
+            "testimonials": [
+              {
+                "name": "John Smith",
+                "role": "Real Estate Agent",
+                "quote": "Elite Property Leads transformed my business with high-quality leads!"
+              },
+              {
+                "name": "Jane Doe",
+                "role": "Real Estate Investor",
+                "quote": "Thanks to Elite, I have more time to focus on closing deals."
+              }
+            ],
+            "title": "What Our Clients Say",
+            "description": "Real testimonials from successful real estate professionals who trust us.",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "id": "contactCloser-6",
+          "type": "contactCloser",
+          "order": 6,
+          "context": "This section is the last section of the page, with a closing pitch and call to action to fill out a form",
+          "props": {
+            "title": "Ready to Boost Your Leads?",
+            "description": "Don't miss out on high-quality leads that can elevate your real estate business. Fill out the form below, and let's get started on your personalized lead generation strategy today!",
+            "buttonText": "Submit Your Info",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        }
+      ],
+      "text": [
+        {
+          "componentId": "landingNavbar-0",
+          "componentType": "landingNavbar",
+          "text": {
+            "logoText": "Elite Property Leads",
+            "logoAlt": "Elite Property Leads Logo",
+            "sticky": "true",
+            "alignment": "right",
+            "buttonText": "Get Started",
+            "ctaDestination": "/get-started",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "componentId": "auroraImageHero-1",
+          "componentType": "auroraImageHero",
+          "text": {
+            "subTitle": "Your Real Estate Solution",
+            "title": "Unlock High-Quality Property Leads",
+            "description": "Generate pre-qualified leads for buyers, sellers, and investors with our AI-powered matching and targeted marketing strategies.",
+            "buttonText": "Learn More",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "componentId": "imageTextBox-2",
+          "componentType": "imageTextBox",
+          "text": {
+            "title": "AI-Powered Lead Matching",
+            "description": "Our advanced technology connects you with serious buyers and sellers, ensuring you never waste time on cold leads again.",
+            "buttonText": "See How",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "componentId": "textAndList-3",
+          "componentType": "textAndList",
+          "text": {
+            "subTitle": "Why Choose Us",
+            "title": "Benefits of Our Services",
+            "description": "Discover how we help real estate professionals succeed.",
+            "textArray": [
+              {
+                "title": "Pre-Qualified Leads",
+                "description": "Receive leads that are ready to transact, saving you time and effort."
+              },
+              {
+                "title": "Local Market Expertise",
+                "description": "Leverage our in-depth market analysis for targeted campaigns."
+              },
+              {
+                "title": "Multi-Channel Marketing",
+                "description": "Engage prospects through SEO, social ads, and email nurturing."
+              },
+              {
+                "title": "Faster Closings",
+                "description": "Boost your closing rate with leads proven to convert 20% better."
+              }
+            ],
+            "array": [
+              {
+                "title": "Pre-Qualified Leads",
+                "description": "Receive leads that are ready to transact, saving you time and effort."
+              },
+              {
+                "title": "Local Market Expertise",
+                "description": "Leverage our in-depth market analysis for targeted campaigns."
+              },
+              {
+                "title": "Multi-Channel Marketing",
+                "description": "Engage prospects through SEO, social ads, and email nurturing."
+              },
+              {
+                "title": "Faster Closings",
+                "description": "Boost your closing rate with leads proven to convert 20% better."
+              }
+            ],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "componentId": "imageTextPoints-4",
+          "componentType": "imageTextPoints",
+          "text": {
+            "title": "Simple Steps to Success",
+            "description": "Follow our streamlined process to start generating high-quality leads today.",
+            "buttonText": "Get Started Now",
+            "alt": "Visual Steps to Success",
+            "textArray": [
+              {
+                "title": "Step 1: Market Assessment",
+                "description": "Complete our assessment to understand your unique needs and market."
+              },
+              {
+                "title": "Step 2: Customized Strategy",
+                "description": "We tailor a lead generation strategy specifically for your niche."
+              },
+              {
+                "title": "Step 3: Launch Campaigns",
+                "description": "Watch us launch effective campaigns within days to fill your pipeline."
+              }
+            ],
+            "array": [
+              {
+                "title": "Step 1: Market Assessment",
+                "description": "Complete our assessment to understand your unique needs and market."
+              },
+              {
+                "title": "Step 2: Customized Strategy",
+                "description": "We tailor a lead generation strategy specifically for your niche."
+              },
+              {
+                "title": "Step 3: Launch Campaigns",
+                "description": "Watch us launch effective campaigns within days to fill your pipeline."
+              }
+            ],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "componentId": "testimonials3-5",
+          "componentType": "testimonials3",
+          "text": {
+            "testimonials": [
+              {
+                "name": "John Smith",
+                "role": "Real Estate Agent",
+                "quote": "Elite Property Leads transformed my business with high-quality leads!"
+              },
+              {
+                "name": "Jane Doe",
+                "role": "Real Estate Investor",
+                "quote": "Thanks to Elite, I have more time to focus on closing deals."
+              }
+            ],
+            "title": "What Our Clients Say",
+            "description": "Real testimonials from successful real estate professionals who trust us.",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        },
+        {
+          "componentId": "contactCloser-6",
+          "componentType": "contactCloser",
+          "text": {
+            "title": "Ready to Boost Your Leads?",
+            "description": "Don't miss out on high-quality leads that can elevate your real estate business. Fill out the form below, and let's get started on your personalized lead generation strategy today!",
+            "buttonText": "Submit Your Info",
+            "array": [],
+            "mainColor": "#1E90FF",
+            "textColor": "#333333",
+            "baseBgColor": "#f5f5f5",
+            "bgLayout": {
+              "type": "solid"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "createdAt": "2025-10-21T20:56:11.502Z",
+  "updatedAt": "2025-10-22T23:55:56.909Z",
+  "websiteName": "Elite Property Leads"
+}
